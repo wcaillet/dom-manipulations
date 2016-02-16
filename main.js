@@ -1,4 +1,3 @@
-
 document.querySelector("#thanks button").addEventListener('click',function(){
   // TASK #1
 })
@@ -10,6 +9,13 @@ document.querySelector("#double button").addEventListener('click',function(){
 
 document.querySelector("#color-circle button").addEventListener('click',function(){
   // TASK #3
+  var circle = document.querySelector("#circle-bw")
+  if (circle.style.background === "black") {
+  	circle.style.background = "white"
+  }
+  else {
+  	circle.style.background = "black"
+  }
 })
 
 document.querySelector("#blow-up button").addEventListener('click',function(){
